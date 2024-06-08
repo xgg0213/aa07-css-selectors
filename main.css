@@ -171,6 +171,15 @@ pre {
     margin-top: 100px;
 }
 
+pre > a {
+    color: black;
+}
+
 a {
     text-decoration: none
 }
+
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+  }
