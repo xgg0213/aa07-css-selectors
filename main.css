@@ -8,6 +8,9 @@
 
 body > p {
     text-indent: 1em;
+    text-align: justify;
+    margin-bottom: 0.75em;
+    margin-top: 0.75em;
 }
 
 h1, h2, h3 {
@@ -159,4 +162,15 @@ h3, .bk7 {
     position: absolute;
     right: 10px;
     font-size: small;
+}
+
+pre {
+    margin: auto;
+    width: fit-content;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+a {
+    text-decoration: none
 }
